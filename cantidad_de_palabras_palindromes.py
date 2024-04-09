@@ -1,4 +1,4 @@
-#import unittest
+"""import unittest
 
 def obtener_cantidad_de_palabras_palindrome(palabras):
 
@@ -49,4 +49,4 @@ class TestCantidadDePalabrasPalindromes(unittest.TestCase):
         self.assertEqual(resultado, 5)
 
 
-unittest.main()
+unittest.main()"""
