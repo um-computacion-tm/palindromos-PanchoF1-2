@@ -1,7 +1,8 @@
-import unittest
+#import unittest
 
+def obtener_cantidad_de_palabras_palindrome(palabras):
 
-class TestCantidadDePalabrasPalindromes(unittest.TesCase):
+class TestCantidadDePalabrasPalindromes(unittest.TestCase):
     def test_cantidad_de_palabras_palindromes_simple(self):
         palabras = ["ala"]
         resultado = obtener_cantidad_de_palabras_palindrome(palabras)
