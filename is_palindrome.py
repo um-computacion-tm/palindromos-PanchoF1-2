@@ -29,11 +29,9 @@ class Test_Palindromo(unittest.TestCase):
         es_palindromo = is_palindrome("NeuQuen")
         self.assertTrue(es_palindromo)
     
-
     def test_Palindromo_6(self):
         es_palindromo = is_palindrome("salas")
         self.assertTrue(es_palindromo)
-
 
     def test_Palindromo_7(self):
         es_palindromo = is_palindrome("OsO")
@@ -51,14 +49,5 @@ class Test_Palindromo(unittest.TestCase):
         es_palindromo = is_palindrome("neuquen")
         self.assertTrue(es_palindromo)
     
-
-    def test_Palindromo_11(self):
-        es_palindromo = is_palindrome("NeuQuen")
-        self.assertTrue(es_palindromo)
-    
-
-    def test_Palindromo_12(self):
-        es_palindromo = is_palindrome("salas")
-        self.assertTrue(es_palindromo)
 
 unittest.main()
